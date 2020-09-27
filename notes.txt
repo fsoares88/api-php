@@ -13,8 +13,11 @@ Qual a estrutura de dados?
 
 Quais os endpoints?
 - (Metodo) /url (Parametros)
-- (Get) /api/notes
-- (Get) /api/note/123
-- (Post) /api/note (title,body)
-- (Put) /api/note/123 (title,body)
-- (Delete) /api/note/123
+- (Get) /api/notes - /api/getall.php
+- (Get) /api/note/123 - /api/get.php?id=123
+- (Post) /api/note (title,body) - /api/insert.php
+- (Put) /api/note/123 (id,title,body) - /api/update.php
+- (Delete) /api/note/123 - /api/delete.php (id)
+
+
+API EM PHP ESTRUTURAL
